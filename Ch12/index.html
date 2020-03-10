@@ -21,6 +21,8 @@ function drawSomething() {
     var ctx = canvas.getContext('2d');
     ctx.fillRect(10, 50, 100, 200);
     ctx.fillStyle = "red";
+    ctx.fillRect(offset + (0 * (offset + size)), offset, size, size);
+    ctx.fillRect(offset + (1 * (offset + size)), offset, size, size)
 }
 </script>
 </body>
